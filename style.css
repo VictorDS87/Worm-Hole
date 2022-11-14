@@ -13,9 +13,6 @@ section {
   align-items: center;
 }
 
-a {
-  color: #3391ff;
-}
 .button {
   max-width: 350px;
   max-height: 50px;
@@ -61,5 +58,6 @@ button {
   text-decoration: none;
 }
 .button a button span {
+  color: #474040;
   font-size: 24px;
 }
