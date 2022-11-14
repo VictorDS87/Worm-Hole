@@ -9,23 +9,36 @@ section {
   align-items: center;
 }
 .button {
+  max-width: 350px;
+  max-height: 50px;
   background: white;
   margin-top: 1rem;
   border-radius: 10px;
-
 }
 
 .button img{
   height: 36px;
 }
 
+button {
+  cursor: pointer;
+}
 .button button {
+  position: relative;
+
   display: flex;
   align-items: center;
+  justify-content: center;
+
+  left: 40px;
+  width: 350px;
+  height: 50px;
 }
 
 .button button span {
   margin-left: 1rem;
+  font-family: 'Roboto', sans-serif;
+  
   text-decoration: none;
 }
 .button span {
