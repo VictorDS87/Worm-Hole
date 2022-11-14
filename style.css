@@ -1,3 +1,7 @@
+body {
+  background-color: #181a1b;
+}
+
 main {
   display: flex;
   justify-content: center;
@@ -8,12 +12,14 @@ section {
   /* background: white; */
   align-items: center;
 }
+
+a {
+  color: #3391ff;
+}
 .button {
   max-width: 350px;
   max-height: 50px;
-  background: white;
   margin-top: 1rem;
-  border-radius: 10px;
 }
 
 .button img{
@@ -21,9 +27,15 @@ section {
 }
 
 button {
+  border: transparent;
+  border-radius: 15px;
+
+  background:#aba499;
+  
   cursor: pointer;
 }
-.button button {
+
+.button a button {
   position: relative;
 
   display: flex;
@@ -33,14 +45,21 @@ button {
   left: 40px;
   width: 350px;
   height: 50px;
+
+  transition: 0.3s;
 }
 
-.button button span {
+.button a button:hover {
+  background: #69655e;
+  color: #b3b3b3;
+}
+
+.button a button span {
   margin-left: 1rem;
   font-family: 'Roboto', sans-serif;
   
   text-decoration: none;
 }
-.button span {
+.button a button span {
   font-size: 24px;
 }
