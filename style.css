@@ -8,9 +8,25 @@ main {
 }
 
 section {
-  margin: 15rem 5rem 5rem 0;
+  margin: 5rem 5rem 5rem 0;
   /* background: white; */
   align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+  
+  position: relative;
+  left: 40px;
+}
+
+.title h1 {
+  color: #0e0d0e;
+
+  font-size: 56px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .button {
